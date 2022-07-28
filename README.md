@@ -88,7 +88,7 @@ Alttaki komutları metin belgesine kaydedip, uzantısını .ps1 (ms powershell d
 Ardından sağ tıklayıp "Run with Powershell" de.
 Set-Alias -Name yazısından sonraki komut ilgili fonksiyonu çalıştırır.
 Örneğin cmd'ye gs yazılırsa git status çalışır.
-gcob branchIsmi yazılırsa git checkout -b branchIsmi kodu çalışır (branchIsmi isimli yeni branch oluşturur ve içerisine geçer)
+$args yazanlar arguman alır yani gcob branchIsmi yazılırsa git checkout -b branchIsmi kodu çalışır (branchIsmi isimli yeni branch oluşturur ve içerisine geçer)
 
 ```
 Clear-Host
