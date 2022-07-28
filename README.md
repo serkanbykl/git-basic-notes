@@ -2,10 +2,6 @@
 
 #Git Notları
 ```
--- Diff patch
-git diff origin/develop > diff.patch //yapılan değişiklikleri diff.patch dosyasına atıyor.
-git apply diff.patch //diffi uygulama
-
 -- Developu (veya main repo) Güncelleme
 git checkout develop
 git fetch //remote değişiklikleri localine indirir ama uygulamaz
@@ -81,6 +77,11 @@ git add .
 git rebase --continue //bundan sonra bir dosya açılacak o dosyadan commit ismini vb değiştirebilirsin pek gerek yok değişiklik yapmadan dosyayı kapat
 git commit --amend --no-edit
 git push -f origin feature/TASKID
+
+-- Diff patch
+git diff origin/develop > diff.patch //yapılan değişiklikleri diff.patch dosyasına atıyor.
+git apply diff.patch //diffi uygulama
+
 ```
 #Alias
 
